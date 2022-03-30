@@ -1,0 +1,31 @@
+.CandyBar {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CandyBar button {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: pink;
+}
+
+.CandyBar button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.CandyBar button:active,
+.CandyBar button:focus {
+  outline: none;
+}
+
+.bar {
+  position: absolute;
+  z-index: -1;
+}

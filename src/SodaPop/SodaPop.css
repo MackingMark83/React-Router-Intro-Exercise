@@ -1,0 +1,31 @@
+.SodaPop {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SodaPop button {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: pink;
+}
+
+.SodaPop button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.SodaPop button:active,
+.SodaPop button:focus {
+  outline: none;
+}
+
+.bottle {
+  position: absolute;
+  z-index: -1;
+}
